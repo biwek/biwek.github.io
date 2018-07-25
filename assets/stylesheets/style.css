@@ -1,0 +1,104 @@
+body {
+  padding: 50px;
+  background: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color: #0088cc;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #00B7FF;
+}
+
+#container {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+  margin-top: 1em;
+}
+
+.intro {
+  text-align: center;
+}
+
+.intro img {
+  border-radius: 50%;
+  height: 114px;
+  margin: 10px;
+  opacity: 0.9;
+}
+
+#container h1 {
+  text-align: center;
+  font-size: 2.2em;
+  padding: 10px;
+}
+
+#container p.info {
+  text-align: center;
+  color: #999999;
+  margin: 15px;
+}
+
+#container h3 {
+  font-size: 1.3em;
+}
+
+#container hr {
+  display: block;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+  clear: both;
+  width: 80%;
+}
+
+.detail {
+  display: inline-block;
+}
+
+.links {
+  width: 300px;
+  float: left;
+  padding: 5px 0;
+  margin-left: 1.4em;
+  font-size: 14px;
+}
+
+.links p {
+  line-height: 2em;
+  color: #444444;
+}
+
+.title {
+  width: 7em;
+  text-align: right;
+  display: inline-block;
+  padding-right: 0.8em;
+}
+
+.projects, .footer {
+  padding: 10px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.projects h3 {
+  text-align: center;
+}
+
+.projects {
+  height: 200px;
+}
+
+.footer {
+  margin-top: 2em;
+  color: #999999;
+  font-size: 12px;
+  text-align: center;
+}
