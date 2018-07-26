@@ -14,42 +14,19 @@ a:hover{
   color: #00B7FF;
 }
 
-#container {
-  width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 14px;
-  margin-top: 1em;
+h1, h2, h3, h4, h5, h6 {
+  padding: 5px;
 }
 
-.intro {
-  text-align: center;
-}
-
-.intro img {
-  border-radius: 50%;
-  height: 114px;
-  margin: 10px;
-  opacity: 0.9;
-}
-
-#container h1 {
-  text-align: center;
+h1 {
   font-size: 2.2em;
-  padding: 10px;
 }
 
-#container p.info {
-  text-align: center;
-  color: #999999;
-  margin: 15px;
-}
-
-#container h3 {
+h3 {
   font-size: 1.3em;
 }
 
-#container hr {
+hr {
   display: block;
   border: 0;
   border-top: 1px solid #eeeeee;
@@ -57,11 +34,39 @@ a:hover{
   width: 80%;
 }
 
+#container {
+  width: 700px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+}
+
+.intro, .detail, .projects, .footer {
+  padding: 10px 0;
+}
+
+.intro {
+  text-align: center;
+}
+
+.intro img {
+  height: 114px;
+  margin: 10px;
+  opacity: 0.9;
+  border-radius: 50%;
+}
+
+.intro p.info {
+  color: #999999;
+  margin: 15px;
+}
+
 .detail {
   display: inline-block;
 }
 
-.links {
+.detail .links {
   width: 300px;
   float: left;
   padding: 5px 0;
@@ -69,20 +74,18 @@ a:hover{
   font-size: 14px;
 }
 
-.links p {
+.detail .links p {
   line-height: 2em;
-  color: #444444;
 }
 
-.title {
+.detail .links .title {
   width: 7em;
   text-align: right;
   display: inline-block;
   padding-right: 0.8em;
 }
 
-.projects, .footer {
-  padding: 10px;
+.projects {
   width: 600px;
   margin-left: auto;
   margin-right: auto;
@@ -92,13 +95,35 @@ a:hover{
   text-align: center;
 }
 
-.projects {
-  height: 200px;
+.projects .project {
+  padding: 15px 0px;
+}
+
+.projects .project .logo {
+  width: 120px;
+  float: left;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.projects .project p {
+  line-height: 20px;
+}
+
+.projects .project img {
+  border-radius: 50%;
+  height: 60px;
+  opacity: 0.9;
 }
 
 .footer {
-  margin-top: 2em;
   color: #999999;
   font-size: 12px;
   text-align: center;
+}
+
+.footer img {
+  height: 10px;
+  opacity: 0.3;
+  padding: 15px;
 }

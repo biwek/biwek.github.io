@@ -14,60 +14,98 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA=" crossorigin="anonymous"></script>
     <script src="assets/javascripts/app.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122999691-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-122999691-1');
+    </script>
   </head>
 
   <body>
     <div id="container">
-      <section class="intro">
-        <img src="assets/images/dude.png" alt="dude">
+      <div class="intro">
+        <img src="assets/images/dude.png" alt="dude"/>
         <h1>Biwek Shrestha</h1>
         <p class="info">
           Trying to leave a <i>dent</i> in the universe
         </p>
-      </section>
+      </div>
 
       <hr>
 
-      <section class="detail">
-        <section class="links">
+      <div class="detail">
+        <div class="links">
           <p>
             <span class="title">github:</span>
             <a href="https://github.com/biwek" target="_blank">github.com/biwek</a>
           </p>
           <p>
-            <span class="title">stackoverflow:</span>
-            <a href="https://stackoverflow.com/users/3057947/biwek" target="_blank">stackoverflow.com/.../biwek</a>
-          </p>
-          <p>
             <span class="title">codewars:</span>
             <a href="https://www.codewars.com/users/biwek" target="_blank">codewars.com/users/biwek</a>
-          </p>
-        </section>
-        <section class="links">
-          <p>
-            <span class="title">twitter:</span>
-            <a href="https://twitter.com/bwaake" target="_blank">twitter.com/bwaake</a>
           </p>
           <p>
             <span class="title">linkedin:</span>
             <a href="https://linkedin.com/in/biwek" target="_blank">linkedin.com/in/biwek</a>
           </p>
+        </div>
+        <div class="links">
+          <p>
+            <span class="title">stackoverflow:</span>
+            <a href="https://stackoverflow.com/users/3057947/biwek" target="_blank">stackoverflow.com/.../biwek</a>
+          </p>
+          <p>
+            <span class="title">twitter:</span>
+            <a href="https://twitter.com/bwaake" target="_blank">twitter.com/bwaake</a>
+          </p>
           <p>
             <span class="title">flickr:</span>
             <a href="https://www.flickr.com/photos/biwek" target="_blank">flickr.com/photos/biwek/</a>
           </p>
-        </section>
-      </section>
+        </div>
+      </div>
 
       <hr>
 
-      <section class="projects">
+      <div class="projects">
         <h3>Projects</h3>
-      </section>
+        <div class="project">
+          <div class="logo">
+            <a href="https://abhinavnepal.com" target="_blank">
+              <img src="assets/images/abhinav_nepal_logo.png" alt="abhinav_nepal"/>
+            </a>
+          </div>
+          <div class="description">
+            <h5><a href="https://abhinavnepal.com" target="_blank">Abhinav Nepal</a></h5>
+            <p>
+              Open source platform that provides useful resources to help anyone interested in doing science and innovation related works in or for Nepal.
+            </p>
+          </div>
+        </div>
+        <div class="project">
+          <div class="logo">
+            <a href="http://foolshoots.com" target="_blank">
+              <img src="assets/images/foolshoots.png" alt="foolshoots"/>
+            </a>
+          </div>
+          <div class="description">
+            <h5><a href="http://foolshoots.com" target="_blank">Foolshoots</a></h5>
+            <p>
+              Site showcases videos - captured and edited by bunch of <i>fools</i>.
+            </p>
+          </div>
+        </div>
+      </div>
 
       <hr>
 
-      <section class="footer"></section>
+      <div class="footer">
+        <a href="mailto:biweks@gmail.com">
+          <img src="assets/images/envelope.png" alt="mail"/>
+        </a>
+        <div class="copyright"></div>
+      </div>
     </div>
   </body>
 </html>
