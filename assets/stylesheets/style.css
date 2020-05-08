@@ -2,6 +2,7 @@ body {
   padding: 50px;
   background: #ffffff;
   font-family: 'Open Sans', sans-serif;
+  color: #000000;
 }
 
 a {
@@ -10,7 +11,7 @@ a {
   text-decoration: none;
 }
 
-a:hover{
+a:hover {
   color: #00B7FF;
 }
 
@@ -46,8 +47,14 @@ hr {
   padding: 10px 0;
 }
 
-.intro {
+.intro, .detail {
   text-align: center;
+}
+
+.detail, .projects {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .intro img {
@@ -62,33 +69,14 @@ hr {
   margin: 15px;
 }
 
-.detail {
-  display: inline-block;
+.detail img {
+  height: 24px;
+  padding: 10px;
+  opacity: 0.8;
 }
 
-.detail .links {
-  width: 300px;
-  float: left;
-  padding: 5px 0;
-  margin-left: 1.4em;
-  font-size: 14px;
-}
-
-.detail .links p {
-  line-height: 2em;
-}
-
-.detail .links .title {
-  width: 7em;
-  text-align: right;
-  display: inline-block;
-  padding-right: 0.8em;
-}
-
-.projects {
-  width: 600px;
-  margin-left: auto;
-  margin-right: auto;
+.detail a:hover {
+  opacity: 0.6;
 }
 
 .projects h3 {
@@ -107,7 +95,7 @@ hr {
 }
 
 .projects .project p {
-  line-height: 20px;
+  line-height: 22px;
 }
 
 .projects .project img {

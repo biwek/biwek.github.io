@@ -8,11 +8,7 @@
     width: 100% !important;
   }
 
-  .detail .links {
-    font-size: 13px;
-  }
-
-  .projects, .footer {
+  .detail, .projects, .footer {
     width: 100%;
   }
 
